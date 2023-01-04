@@ -1,0 +1,24 @@
+- title: machine learning 
+  description: to predict the properties of molecules & materials
+  icon: '<i class="fas text-white text-xl fa-database"></i>'
+
+- title: Bayesian optimization
+  description: to efficiently search for materials with optimal properties
+  icon: '<i class="fas text-white text-xl fa-flask"></i>'
+
+- title: Bayesian inversion
+  description: to solve inverse problems while quantifying uncertainty
+  icon: '<i class="fas text-white text-xl fa-dice"></i>'
+
+- title: electronic noses
+  description: machine-learning the response patterns, computational design by material curation
+  icon: '<i class="fas text-white text-xl fa-dog"></i>'
+
+- title: molecular simulation
+  description: to predict the gas adsorption properties of nanoporous materials
+  icon: '<i class="fas text-white text-xl fa-laptop"></i>'
+
+- title: toy stat mech models
+  description: to elucidate anomalous adsorption properties of nanoporous crystals
+  icon: '<i class="fas text-white text-xl fa-calculator"></i>'
+

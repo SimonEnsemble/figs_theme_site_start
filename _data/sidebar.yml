@@ -1,0 +1,11 @@
+name: Simon Research Ensemble
+image: green_cage_light.png
+designations:
+  - mathematical modeling
+  - machine learning
+  - molecular simulation
+social:
+
+sidebar-links:
+  - title: ppl
+    link: ppl
