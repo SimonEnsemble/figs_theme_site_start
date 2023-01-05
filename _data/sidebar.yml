@@ -7,5 +7,7 @@ designations:
 social:
 
 sidebar-links:
-  - title: ppl
-    link: ppl
+  - title: students
+    link: /students
+  - title: prof
+    link: /prof

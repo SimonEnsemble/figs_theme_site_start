@@ -1,0 +1,45 @@
+<div class="about mb-8 md:mb-16 relative z-20">
+  <h2
+    class="font-bold text-xl pb-3 mb-3 border-b"
+    data-sal="slide-up"
+    data-sal-duration="800"
+  >
+    <span class="{{site.data.settings.text-color-scheme}}">grad </span>students
+  </h2>
+    {% for student in site.data.grad %}
+          <div class="overflow-hidden rounded-full w-32 h-32 mx-auto shadow-lg">
+            <img
+                src="{{ student.foto }}"
+            />
+          </div>
+        <div class="w-full">
+          <p
+            class="text-md {{site.data.settings.text-color-scheme}} font-bold text-center"
+          >
+            {{ student.name }}
+          </p>
+          <p
+            class="text-md text-center"
+          >
+          {{ student.lvl }} student
+          </p>
+        </div>
+        <p>
+
+        <b>education:</b> {{ student.degree }}
+         <br><br>
+
+         <b> about:</b> {{ student.about }}
+
+         <br><br>
+         
+         <b>research project(s):</b> {{ student.research }}
+
+        </p>
+
+        <br>
+    {% endfor %}
+
+  <p data-sal="slide-up" data-sal-duration="800">
+  </p>
+</div>
